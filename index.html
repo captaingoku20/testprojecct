@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Table V01</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-table100">
+			<div class="wrap-table100">
+				<div class="table100">
+					<table>
+						<thead>
+							<tr class="table100-head">
+								<th class="column1">S.NO</th>
+								<th class="column2">Rule</th>
+								<th class="column3">Operation</th>
+								<th class="column4">Value</th>
+								<th class="column5">Weight</th>
+							</tr>
+						</thead>
+						<tbody>
+								<tr>
+									<td class="column1">1.</td>
+									<td class="column2">Utility Bills</td>
+									<td class="column3"> ></td>
+									<td class="column4"><input type="number" id="uid" value="400"></td>
+									<td class="column5"><input type="number" id="uid1" value="0.25"></td>
+								</tr>
+								<tr>
+									<td class="column1">2.</td>
+									<td class="column2">Traffic Challan</td>
+									<td class="column3"> ></td>
+									<td class="column4"><input type="number" id="tcid" value="200"></td>
+									<td class="column5"><input type="number" id="tcid1" value="-0.55"></td>
+								</tr>
+								<tr>
+									<td class="column1">3.</td>
+									<td class="column2">Charges Electric Car</td>
+									<td class="column3"> ></td>
+									<td class="column4"><input type="number" id="cid" value="100"></td>
+									<td class="column5"><input type="number" id="cid1" value="0.75"></td>
+								</tr>
+								<tr>
+									<td class="column1">4.</td>
+									<td class="column2">Penalty Taxes</td>
+									<td class="column3"> ></td>
+									<td class="column4"><input type="number" id="pid" value="100"></td>
+									<td class="column5"><input type="number" id="pid1" value="-1.1"></td>
+								</tr>
+								<tr>
+									<td class="column1">5.</td>
+									<td class="column2">Threshold</td>
+									<td class="column3"> =</td>
+									<td class="column4"><input type="number" id="tid" value="500"></td>
+									<td class="column5"><input type="number" id="tid1" value="1"></td>
+								</tr>
+								
+						</tbody>
+						
+					</table>
+					<button onclick="myFunction()">Save</button>
+
+								<script>
+								function myFunction() {
+								document.getElementById("uid").value;
+								document.getElementById("tcid").value;
+								document.getElementById("cid").value;
+								document.getElementById("pid").value;
+								document.getElementById("tid").value;
+								document.getElementById("uid1").value;
+								document.getElementById("tcid1").value;
+								document.getElementById("cid1").value;
+								document.getElementById("pid1").value;
+								document.getElementById("tid1").value;
+								}
+								</script>
+
+				</div>
+			</div>
+			
+		</div>
+	</div>	
+<script>
+
+
+	
+
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
